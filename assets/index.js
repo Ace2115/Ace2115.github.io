@@ -52,7 +52,7 @@ imageInput.addEventListener('change', (event) => {
         var base64Image = reader.result.split(',')[1];
 
         var data = new FormData();
-        data.append("key", "119f752f4c867c0af47bc89d4baf6156"); // IMGBB API key
+        data.append("key", "28890d3604a2d42d97001f7fbded2953"); // IMGBB API key
         data.append("image", base64Image);
 
         fetch('https://api.imgbb.com/1/upload', {
@@ -169,3 +169,4 @@ document.querySelectorAll(".input").forEach((input) => {
         localStorage.setItem(input.id, input.value);
     });
 });
+
