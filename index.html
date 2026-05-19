@@ -43,14 +43,16 @@
     </div>
 
     <div class="upload">
-        <p class="error">To pole jest wymagane</p>
-        <img class="upload_uploaded">
-        <div class="upload_uploading"></div>
-        <div class="upload_grid">
-            
-            <p class="upload_text">Dodaj zdjęcie</p>
-        </div>
+    <p class="error">To pole jest wymagane</p>
+
+    <input type="file" id="photoInput" accept="image/*">
+
+    <img id="preview" style="max-width:200px; margin-top:10px;">
+
+    <div class="upload_grid">
+        <p class="upload_text">Dodaj zdjęcie</p>
     </div>
+</div>
 
     <div class="input_holder">
         <input type="text" id="name" class="input" placeholder="">
